@@ -15,5 +15,11 @@
     "react-select": "^5.8.3",
     "sequelize": "^6.37.5"
   },
-  "type": "module"
+  "type": "module",
+  "engines": {
+    "node": ">= 14.15.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
 }
